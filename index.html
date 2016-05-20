@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="meApp">
+<head>
+<style type="text/css">
+	li {
+		list-style-type: none;
+	}
+</style>
+	<script type="text/javascript" src="lib/angular.min.js"></script>
+	<script type="text/javascript" src="js/controllers.js"></script>
+	<script src="lib/jquery.js"></script>
+	<script src="lib/bootstrap.js"></script>
+	<link rel="stylesheet" href="lib/bootstrap.css">
+</head>
+<body>
+<br>
+	<div class="container">
+	 
+		<div ng-controller="MyController">
+			<ul>
+			<div class="well"> search: <span><input type="text" placeholder="search" ng-model="search_family"></span></div>
+				<li ng-repeat="member in family | filter:search_family">
+				
+				<div class="well well-xm">
+					
+					<h2>{{member.title + " "+ member.name}}</h2>
+					<p>{{member.profession +" and " + member.other}}</p>
+					<p><strong>{{member.birthYear}}</strong></p>	
+					
+				</div>
+			
+				</li>
+
+			</ul>
+			
+		</div>
+	</div>
+	
+</body>
+
+</html>

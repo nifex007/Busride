@@ -1,0 +1,39 @@
+    [{
+		"name": "SOLA-OJO, Nifemi",
+		"profession": "Software Developer",
+		"other": "Philantropist",
+		"title": "Mr. ",
+		"birthYear": "1991"
+	},
+	{
+		"name": "SOLA-OJO, Omotoke",
+		"profession": "Economist, Chattered Accountant",
+		"other": "MakeUp Artist",
+		"title": "Miss.",
+		"birthYear": "1995"
+	},
+	{
+		"name": "SOLA-OJO, Diekolope",
+		"profession": "Football Star",
+		"other": "Medical Doctor",
+		"title": "Mr.",
+		"birthYear": "1997"
+
+
+	},
+	{
+		"name": "SOLA-OJO, Amos",
+		"profession": "Pharmacist",
+		"other": "Labour Leader",
+		"title": "Pharm.",
+		"birthYear": "1961"
+	},
+	{
+		"name": "SOLA-OJO, Omolara",
+		"profession": "Registered Nurse",
+		"other": "Entrepreneur",
+		"title": "Mrs.",
+		"birthYear": "1963"
+		
+	}
+	]
