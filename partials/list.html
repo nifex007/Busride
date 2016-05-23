@@ -1,0 +1,21 @@
+<section class='listView'>
+	
+			<ul>
+			<div class="well"> search: <span><input type="text" placeholder="search" ng-model="search_family"></span></div>
+				<li ng-repeat="member in family | filter:search_family">
+				<a href="#/view/{{family.indexOf(member)}}">
+				
+					<div class="well well-xm">
+						
+						<h2>{{member.title + " "+ member.name}}</h2>
+							
+						
+					</div>
+				</a>
+			
+				</li>
+
+			</ul>
+			
+	
+</section>
